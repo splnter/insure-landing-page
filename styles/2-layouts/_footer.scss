@@ -1,0 +1,71 @@
+/** Footer **/
+
+footer {
+  background-color: var(--very-light-gray);
+}
+
+/* primary */
+
+.primary-footer {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.7;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  &__heading {
+    font-family: "Karla", sans-serif;
+    font-size: 0.9rem;
+    color: var(--grayish-blue);
+    text-transform: uppercase;
+  }
+  &__item {
+    list-style: none;
+    & a {
+      text-transform: uppercase;
+      color: var(--dark-violet);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+  }
+}
+
+.attribution {
+  background-color: var(--dark-violet);
+  color: var(--white);
+  padding: 1rem 0.5rem;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+/* secondary */
+
+.secondary-footer {
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/bg-pattern-footer-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 5.375rem;
+  &__logo {
+    max-width: 40%;
+    margin-bottom: 1.875rem;
+  }
+  &__social-icons {
+    justify-content: space-around;
+    align-self: stretch;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+  }
+  &::after {
+    content: "";
+    display: block;
+    width: 90%;
+    height: 0.5px;
+    background-color: var(--grayish-blue);
+  }
+}

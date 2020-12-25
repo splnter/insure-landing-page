@@ -1,0 +1,48 @@
+/** Hero **/
+
+.hero {
+  background-color: var(--dark-violet);
+  flex-direction: column;
+  position: relative;
+  &__intro {
+    text-align: center;
+    background-image: url(../images/bg-pattern-intro-left-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 5.5rem 3.5%;
+  }
+  &__heading {
+    color: var(--white);
+    font-size: 2.8rem;
+    line-height: 1.1;
+    margin-bottom: 0px;
+  }
+  &__text {
+    color: var(--white);
+    padding: 0 0.8rem;
+    margin-bottom: 3rem;
+  }
+  &-img {
+    order: -1;
+  }
+  &__btn {
+    padding: 0.5em 1.5em;
+  }
+  &-img__mobile-right {
+    position: absolute;
+    right: 0px;
+    top: 85%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-img__desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .hero-img__mobile {
+    display: none;
+  }
+}

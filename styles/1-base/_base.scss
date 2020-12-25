@@ -1,0 +1,44 @@
+/** Base **/
+
+:root {
+    --dark-violet: hsl(256, 26%, 20%);
+    --grayish-blue: hsl(216, 30%, 68%);
+    --xtra-dark-violet: hsl(270, 9%, 17%);
+    --dark-grayish-violet: hsl(273, 4%, 51%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+    }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--white);
+}
+
+h1, h2, h3, h4 {
+    font-family: 'DM Serif Display', serif;
+    margin-top: 0px;
+}
+
+a, span, li, p {
+    font-family: 'Karla', sans-serif;
+    color: var(--grayish-blue);
+}
+
+ul {
+    padding: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    line-height: 1.6;
+}

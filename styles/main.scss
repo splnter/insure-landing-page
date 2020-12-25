@@ -1,0 +1,15 @@
+// 1-Base imports
+@import "./1-base/normalize";
+@import "./1-base/base";
+@import "./1-base/utility";
+
+// 2-Layouts
+@import "./2-layouts/header";
+@import "./2-layouts/hero";
+@import "./2-layouts/features";
+@import "./2-layouts/banner";
+@import "./2-layouts/footer";
+
+// 3-Modules
+@import "./3-modules/burger";
+@import "./3-modules/buttons";
